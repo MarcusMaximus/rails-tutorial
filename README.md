@@ -1,5 +1,11 @@
 # README
 
+## About
+
+Rails project build using the rails official tutorial https://edgeguides.rubyonrails.org/getting_started.html
+
+## TODO
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
