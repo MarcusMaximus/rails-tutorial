@@ -1,3 +1,6 @@
 steps:
   - command: "bundle exec rubocop -D"
     label: ":rubocop: rubocop"
+  
+  - command: "bundle exec bundle audit"
+    label: "bundle audit"
