@@ -1,0 +1,3 @@
+steps:
+  - command: "bundle exec rubocop -D"
+    label: ":rubocop: rubocop"
