@@ -1,6 +1,12 @@
 steps:
-  - command: "bundle exec rubocop -D"
-    label: ":rubocop: rubocop"
+  - label: ":rubocop: rubocop"
+    command: "bundle exec rubocop -D"
+    plugins:
+      - docker#v3.3.0:
+          image: "ruby:2.6.2"
   
   - command: "bundle exec bundle audit"
     label: "bundle audit"
+    plugins:
+      - docker#v3.3.0:
+          image: "ruby:2.6.2"
